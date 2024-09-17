@@ -1,0 +1,16 @@
+# Ignore target folder (build outputs)
+target/
+
+# Ignore IntelliJ project files
+.idea/
+*.iml
+
+# Ignore logs
+*.log
+
+# Ignore other system-specific files
+*.DS_Store
+*.vscode/
+
+
+

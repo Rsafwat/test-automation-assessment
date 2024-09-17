@@ -1,0 +1,7 @@
+version: "3"
+services:
+  run-tests:
+    image: docker/selenium-image
+    env_file : .env
+    volumes:
+      - ./target:/home/selenuim-docker/target 
